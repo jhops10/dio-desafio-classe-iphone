@@ -10,9 +10,10 @@ public class Iphone implements AparelhoTelefonico, NavegadorInternet, Reprodutor
     }
 
     @Override
-    public void iniciarConversaVoz() {
-        System.out.println("Iniciando Conversa de Voz.");
+    public void iniciarCorreioVoz() {
+        System.out.println("Iniciando Correio de Voz!");
     }
+
 
     @Override
     public void exibirPagina() {
@@ -49,7 +50,7 @@ public class Iphone implements AparelhoTelefonico, NavegadorInternet, Reprodutor
 
         iphone.ligar();
         iphone.atenderChamada();
-        iphone.iniciarConversaVoz();
+        iphone.iniciarCorreioVoz();
         iphone.exibirPagina();
         iphone.adicionarNovaAba();
         iphone.atualizarPagina();
